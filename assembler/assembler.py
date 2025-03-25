@@ -4,7 +4,7 @@ def assemble(input_file, output_file):
     passes.pass_1(input_file)
     passes.pass_2(input_file, output_file)
 
-# Example usage
+
 assemble('ASMs/Add.asm', 'HACKs/add.hack')
 assemble('ASMs/Max.asm', 'HACKs/Max.hack')
 assemble('ASMs/MaxL.asm', 'HACKs/MaxL.hack')

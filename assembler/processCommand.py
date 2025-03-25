@@ -85,7 +85,7 @@ def getJump(command):
     else:
         return "null"
     
-def processA(line,lineNo):
+def processA(line):
     # Convert an A-instruction line of assmebly to a binary code that is
     # 0 followed by a 15 bit address. Will use the symbol table to lookup
     # a symbol and replace it with a value. If label is not is symbol table
